@@ -15,10 +15,12 @@ image.style.margin = 'auto'
 image.style.top='50%'
 image.style.zIndex = 99
 
-image.style.height = '50%'
-image.style.width = '50%'
+image.style.height = '80%'
+image.style.width = '80%'
+image.style.border = '2px solid black'
+image.style.padding = '5px'
+image.style.backgroundColor = '#f5f5f5f5'
 
-console.log(image)
 
 
 for(let i=0;i< imageLink.length;i++){
@@ -45,4 +47,3 @@ for(let i=0;i< imageLink.length;i++){
         }
     }
 }
-
