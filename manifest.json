@@ -1,0 +1,20 @@
+{
+
+    "manifest_version": 2,
+    "name": "Onhover",
+    "version": "1.0",
+  
+    "description": "Helps to view photoshop battle 's comment images on hover.",
+  
+    "icons": {
+      "48": "icons/H.png"
+    },
+  
+    "content_scripts": [
+      {
+        "matches": ["https://www.reddit.com/r/photoshopbattles/comments/*"],
+        "js": ["app.js"]
+      }
+    ]
+  
+  }
