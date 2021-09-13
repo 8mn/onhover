@@ -1,1 +1,1 @@
-A simple plugin which helps to view photoshop battle 's comment images on hover.
+A simple plugin which helps to view r/photoshopbattle 's comment images on hover.
